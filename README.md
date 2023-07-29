@@ -10,7 +10,8 @@ node index.js --action="get" --id 05olLMgyVQdWRwgKfg5J6
 
 https://prnt.sc/kvklwTuUP0kn
 
-або null, якщо контакту з таким id не існує.
+# або null, якщо контакту з таким id не існує.
+
 https://prnt.sc/cnIA7HhOk2uJ
 
 # Додаємо контакт та виводимо в консоль об'єкт новоствореного контакту
