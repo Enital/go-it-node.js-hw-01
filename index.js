@@ -5,7 +5,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
   switch (action) {
     case "list":
       const allContacts = await listContacts.listContacts();
-      return console.log(allContacts);
+      return console.table(allContacts);
     case "get":
       const oneContact = await listContacts.getContactById(id);
       return console.log(oneContact);
@@ -16,7 +16,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
       const deleteContact = await listContacts.removeContact(id);
       return console.log(deleteContact);
     default:
-      return console.log("Unknow action");
+      return console.log("Unknown action");
   }
 };
 
